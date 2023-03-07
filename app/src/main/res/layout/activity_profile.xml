@@ -95,8 +95,8 @@
         android:layout_height="124dp"
         android:background="#6AAE72"
 
-        tools:layout_editor_absoluteX="44dp"
-        tools:layout_editor_absoluteY="675dp" />
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="498dp" />
 
     <ImageView
         android:id="@+id/imageView14"

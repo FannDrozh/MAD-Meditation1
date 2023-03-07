@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#253334"
+    android:background="@drawable/fon1"
     tools:context=".Login">
 
     <ImageView
@@ -46,7 +46,7 @@
         android:id="@+id/Password"
         android:layout_width="321dp"
         android:layout_height="49dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="28dp"
         android:hint="Пароль"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
@@ -58,15 +58,16 @@
         android:layout_width="350dp"
         android:layout_height="60dp"
         android:layout_marginBottom="24dp"
+        android:backgroundTint="#926D8680"
         android:text="Sign in"
         android:textSize="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintBottom_toTopOf="@+id/regis"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/regis"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
@@ -82,6 +83,7 @@
         android:layout_width="350dp"
         android:layout_height="60dp"
         android:layout_marginBottom="108dp"
+        android:backgroundTint="#926D8680"
         android:text="ПРОФИЛЬ"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
